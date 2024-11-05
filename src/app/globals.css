@@ -252,54 +252,70 @@ margin-right: 2rem;
 /* Medium screens (up to 1024px) */
 @media (max-width: 1024px) {
   nav ul {
-    gap: 10px;
-    margin-right: 1rem;
+      gap:10px;
+      margin-right: 1rem
   }
 
   .heroimg {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+     
+      margin-left: auto !important;
+      margin-right: auto;
+      margin-bottom: 2rem
   }
 
   .hea2 {
-    font-size: 2.5rem; 
-    margin-left: 11.5rem;
-    margin-top: 1rem;
+      font-size: 2.5rem;
+      margin-left: 22.5rem;
+      margin-top: 1rem
   }
+
   .hea3 {
-    font-size: 1.2rem;
-    margin-left: 11rem;
+      font-size: 1.2rem;
+      margin-left: 21rem
   }
 
   .para1 {
-    font-size: 1rem;
-    margin-left: 0rem;
+      font-size: 1rem;
+      margin-left: 14rem
   }
 
   .buttons {
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 10px;
-    margin-left: 11.5rem;
-    margin-bottom: 2rem;
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 22.5rem;
+      margin-bottom: 2rem
   }
 
-.div{
-  width: 95%;
-}
+  .div {
+      width: 95%
+  }
 
-  .footerE,
-  .footerc {
-    margin: 4rem;
+  .footerE,.footerc {
+      margin: 4rem
   }
 
   .footerl {
-  
-    justify-content: center;
-    gap: 10px;
+      justify-content: center;
+     
+     gap: 10px
   }
+  .heap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-left: 5rem;
 }
+.row{
+  margin-left: 3rem !important;
+}
+.anoski{
+  margin-left: 3rem !important;
+}
+.anoski .timeline-circle{
+  margin-top: 1.8rem;
+}}
+
 /* Mobile screens (up to 480px) */
 @media (max-width: 480px) {
   
@@ -316,16 +332,22 @@ margin-right: 2rem;
     margin: 0;
     padding: 0;
   }
+  .heap{
+    margin-left: 0% !important;
+  }
 
   nav ul {
     gap: 10px;
   }
 
-  .hea1 {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
+ .hea2 {
+        font-size: 2.5rem;
+        margin-left: 9rem !important;
+    }
+    .hea2 {
+      font-size: 2.5rem;
+      margin-left: 9rem;
   }
-  
 
   /* Hero section */
   .heroimg {
@@ -337,9 +359,9 @@ margin-right: 2rem;
   /* Button adjustments */
   .buttons {
     flex-direction: column;
-    align-items: center;
+  
     gap: 10px;
-    margin-left: 0;
+    margin-left: 9rem;
   }
 
   button {
@@ -374,14 +396,10 @@ margin-right: 2rem;
     font-size: 1rem;
   }
 
-  .hea2 {
-    font-size: 2.5rem; 
-    margin-left: 11rem;
-  }
 
   .hea3 {
     font-size: 1.2rem;
-    margin-left: 10rem;
+    margin-left: 7.4rem;
   }
 
   .para1 {
@@ -389,11 +407,7 @@ margin-right: 2rem;
     margin-left: 2rem;
   }
 
-  .buttons {
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 10px;
-    margin-left: 11rem;
-  }
+
 
   button {
     width: 100px;
@@ -410,7 +424,7 @@ margin-right: 2rem;
     font-size: 0.8rem;
   }
   .div{
-   width: 90%;
+   width: 100% !important;
    margin-top: 1rem;
   }
 }
@@ -794,6 +808,10 @@ margin-right: 50rem;
     font-size: 1.1rem; /* Slightly reduce title size */
     
   }
+  .heroimg {
+    margin: 0 !important;
+}
+
 
   .item-period {
     font-size: 0.9rem; /* Slightly reduce period size */
@@ -824,5 +842,19 @@ margin-right: 50rem;
       flex-direction: column;
        padding-left: 0px; 
        margin-left: 0rem;
+}
+}
+@media (max-width: 1399.98px) { 
+ 
+ .semimain{
+  display: flex;
+  flex-wrap: wrap;
+}
+.heroimg{
+  margin-left: 6rem;
+
+}
+.div{
+  width: 100%;
 }
 }
