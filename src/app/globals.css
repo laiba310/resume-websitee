@@ -128,7 +128,7 @@ display: flex;
   background-color: darkcyan;
 }
 
-/* Hover effect on individual buttons */
+
 .buttons button:hover {
   transform: scale(1.07);
   background-color: white;
@@ -617,7 +617,7 @@ margin-right: 2rem;
   }
 
   .but {
-    margin-left: auto;
+    margin-left: 3rem;
     margin-right: auto;
     width: 200px;
   }
@@ -656,6 +656,8 @@ margin-right: 2rem;
     width: 100%; 
     padding: 10px;
   }
+  .block-titlee h2{
+     margin-left: 1rem }
 }
 
 /* Container for the main content */
@@ -667,7 +669,7 @@ margin-right: 2rem;
   gap: 2rem;
 }
 
-/* Styling for the heading */
+
 .hea8 {
   font-size: 2.5rem;
   margin-top: 3rem;
@@ -676,7 +678,7 @@ margin-left: 6rem;
   margin-bottom: 2rem;
 }
 
-/* Left text container */
+
 .he1 {
   font-size: 0.8rem;
   font-weight: bold;
@@ -690,7 +692,7 @@ margin-left: 6rem;
   margin-left: 6rem;
 }
 
-/* Image container */
+
 .I1 {
   flex: 1;
   text-align: right;
@@ -733,6 +735,9 @@ margin-left: 6rem;
     line-height: 1.6;
      margin-left: 0rem; 
 }
+ .he1{
+  margin-left: 1.3rem;
+ }
 }
 
 .anoski{
