@@ -265,23 +265,23 @@ margin-right: 2rem;
 
   .hea2 {
     font-size: 2.5rem; 
-    margin-left: 20rem;
+    margin-left: 11.5rem;
     margin-top: 1rem;
   }
   .hea3 {
     font-size: 1.2rem;
-    margin-left: 19rem;
+    margin-left: 11rem;
   }
 
   .para1 {
     font-size: 1rem;
-    margin-left: 9rem;
+    margin-left: 0rem;
   }
 
   .buttons {
     flex-direction: column; /* Stack buttons vertically */
     gap: 10px;
-    margin-left: 20rem;
+    margin-left: 11.5rem;
     margin-bottom: 2rem;
   }
 
