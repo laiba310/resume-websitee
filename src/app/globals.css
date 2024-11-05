@@ -254,13 +254,15 @@ margin-right: 2rem;
   nav ul {
       gap:10px;
       margin-right: 1rem
+    
   }
 
   .heroimg {
      
       margin-left: auto !important;
       margin-right: auto;
-      margin-bottom: 2rem
+      margin-bottom: 2rem;
+   
   }
 
   .hea2 {
@@ -323,11 +325,11 @@ margin-right: 2rem;
   nav {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
   }
 
   .nav-start,
   nav ul {
-    flex-direction: column;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -335,19 +337,22 @@ margin-right: 2rem;
   .heap{
     margin-left: 0% !important;
   }
-
+  .logo {
+    display: none;
+  }
   nav ul {
     gap: 10px;
   }
-
+  .par1 {
+    text-align: justify;
+    text-justify: inter-word;
+}
+}
  .hea2 {
         font-size: 2.5rem;
         margin-left: 9rem !important;
     }
-    .hea2 {
-      font-size: 2.5rem;
-      margin-left: 9rem;
-  }
+    
 
   /* Hero section */
   .heroimg {
@@ -355,7 +360,7 @@ margin-right: 2rem;
     height: auto;
     margin: 1rem 0;
   }
-  
+
   /* Button adjustments */
   .buttons {
     flex-direction: column;
@@ -404,7 +409,7 @@ margin-right: 2rem;
 
   .para1 {
     font-size: 1rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
   }
 
 
@@ -427,7 +432,7 @@ margin-right: 2rem;
    width: 100% !important;
    margin-top: 1rem;
   }
-}
+
 
 .hea6{
   margin-top: 2rem;
@@ -440,7 +445,7 @@ margin-right: 2rem;
   display: flex;
   flex-direction: column; /* Stacking the timeline items vertically */
   padding-left: 30px; 
-  margin-left: 15rem;
+
 }
 
 .page-content {
@@ -674,29 +679,37 @@ margin-right: 2rem;
      margin-left: 1rem }
 }
 
-/* Container for the main content */
+
 .pro1 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  gap: 2rem;
+
+}
+.timeline-item p {
+  text-align: justify;
+}
+br {
+  display: none;
 }
 
-
+.para1 {
+  text-align: justify;
+}
 .hea8 {
   font-size: 2.5rem;
   margin-top: 3rem;
   font-weight: bold;
-margin-left: 6rem;
-  margin-bottom: 2rem;
+margin-left: 2rem;
+  margin-bottom: 0.3rem;
 }
 
 
 .he1 {
   font-size: 0.8rem;
   font-weight: bold;
-  margin-left: 6rem;
+  margin-left: 8rem;
 }
 
 .par1 {
@@ -709,7 +722,7 @@ margin-left: 6rem;
 
 .I1 {
   flex: 1;
-  text-align: right;
+ 
 }
 
 .ss {
@@ -725,7 +738,7 @@ margin-left: 6rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 3rem;
+
 }
 
 /* Ensure alignment on smaller screens */
@@ -841,8 +854,23 @@ margin-right: 50rem;
       display: flex;
       flex-direction: column;
        padding-left: 0px; 
-       margin-left: 0rem;
+       margin-left: 0rem !important;
 }
+.anoski{
+  margin-left: 0px !important;
+  padding-left: 0%;
+}
+.hea9{
+  margin: 0px;
+}
+.block-titlee h2 {
+  margin-left: 0rem;
+}
+.timeline {
+  position: relative;
+  padding-left: 0rem;
+}
+
 }
 @media (max-width: 1399.98px) { 
  
@@ -856,5 +884,9 @@ margin-right: 50rem;
 }
 .div{
   width: 100%;
+  margin-left: 0px;
+}
+.butt{
+  margin-left: 2rem;
 }
 }
