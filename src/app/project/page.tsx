@@ -43,7 +43,7 @@ function Project() {
             </div>
           </div>
           <div className="I1">
-            <Link href="https://e-commercee-24l4.vercel.app/" passHref legacyBehavior>
+            <Link href="https://website-2-omega-five.vercel.app/" passHref legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
                 <Image
                   className="ss"
